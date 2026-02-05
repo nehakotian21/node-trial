@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8080;
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  return res.status(200).send("🚀 Server started successfully!!!");
+  return res.status(200).send("🚀 Main Server started successfully!!!");
 });
 
 app.get("/check/:val", (req, res) => {
